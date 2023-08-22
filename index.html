@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Ambiguous Advise</title>
     <link rel="icon" type="image/x-icon" href="">
 </head>
@@ -13,10 +13,11 @@
     </div>
     <p>My log has something to say. But first- what did you want to ask me?</p>
     <div><span id="result"></span></div>
+    <div id="quoteDisplay"></div>
     <div>
         <form id="Form">
         <input type="text" name="question" id="question">
-        <input type="button" value="Submit" onClick="pr();clearInput()">
+        <input type="button" value="Submit" onClick="pr();clearInput();quotes()">
         </form>
     </div>
     <script src="./script.js"></script>
