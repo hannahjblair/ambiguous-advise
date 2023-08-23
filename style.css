@@ -5,6 +5,29 @@ body {
     align-items: center;
   }
 
+  .margaret-container {
+    margin-top: 20px;
+  }
+  
+  form {
+    margin-bottom: 25px;
+  }
+  
+  #question {
+    border-radius: 15px;
+    border-color: #969696;
+    padding: 5px;
+  }
+  
+  .arrow {
+    font-size: 20px;
+    color: white;
+    background-color: hsl(113, 65%, 50%);
+    border-radius: 50%;
+    border-color: hsl(113, 65%, 50%);
+    border-style: solid;
+  }
+
   /* adapted from: https://codepen.io/AllThingsSmitty/pen/jommGQ?editors=1100 */
 
 .imessage {
