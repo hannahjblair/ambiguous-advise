@@ -178,3 +178,13 @@ body {
     margin: 0.5rem 0;
   }
 }
+
+/* other styles */
+
+#result {
+  display: none;
+}
+
+#quoteDisplay {
+  display: none;
+}
