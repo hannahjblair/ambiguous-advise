@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Ambiguous Advise</title>
-    <link rel="icon" type="image/x-icon" href="">
+    <title>Document</title>
 </head>
 <body>
     <div class="margaret-container">
-    <img class="margaret" src="./img/margaret.png" alt="log lady from twin peaks holding her log">
+        <img class="margaret" src="./img/margaret.png" alt="log lady from twin peaks holding her log">
     </div>
-    <p>My log has something to say. But first- what did you want to ask me?</p>
-    <div><span id="result"></span></div>
-    <div id="quoteDisplay"></div>
+    <div class="chat">
+        <div class="imessage">
+          <p class="from-them">My log has something to say. But first- what did you want to ask me?</p>
+          <p class="from-me" id="result"></p>
+          <p class="from-them" id="quoteDisplay"></p> 
+        </div>
+    </div>
     <div>
         <form id="Form">
-        <input type="text" name="question" id="question">
-        <input type="button" value="Submit" onClick="pr();clearInput();quotes()">
+            <input type="text" placeholder="your question here" name="question" id="question">
+            <input type="button" class="arrow" value="&#11014;" onClick="pr();clearInput();quotes();showResult();showReply()">
         </form>
     </div>
     <script src="./script.js"></script>
 </body>
-
 </html>
