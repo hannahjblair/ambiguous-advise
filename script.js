@@ -7,7 +7,7 @@ function clearInput() {
   }
 
   // adapted from https://codepen.io/mina_mana_mu/pen/bGdNpdZ
-  var sayings = [
+  let sayings = [
     "Behind all things are reasons. Reasons can even explain the absurd.",
     "Watch, and see what life teaches",
     "All that we see in this world is based on someone's ideas. Some ideas are destructive, some are constructive. Some ideas can arrive in the forms of a dream. I can say it again: Some ideas arrive in the form of a dream",
@@ -29,7 +29,7 @@ function clearInput() {
   ]
 
   function quotes(){
-  var randomNumber = Math.floor (Math.random()* (sayings.length));
+  let randomNumber = Math.floor (Math.random()* (sayings.length));
   document.getElementById('quoteDisplay').innerHTML = sayings [randomNumber];
   }
 
