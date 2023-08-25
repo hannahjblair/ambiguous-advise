@@ -1,7 +1,9 @@
+//prints the text input by user under the log lady's initial question
 function pr() {
     document.getElementById("result").innerHTML = document.getElementById('question').value;
   }
 
+//clears the question input box
 function clearInput() {
     document.getElementById("Form").reset();
   }
@@ -28,16 +30,19 @@ function clearInput() {
 
   ]
 
+//picks a random log lady quote
   function quotes(){
   let randomNumber = Math.floor (Math.random()* (sayings.length));
   document.getElementById('quoteDisplay').innerHTML = sayings [randomNumber];
   }
 
-
+//keeps the message bubble where the user's question goes hidden until the button is clicked.
   function showResult() {
     document.getElementById('result').style.display = "block";
   }
-  
+
+//keeps the message bubble where the log lady's quote/response goes hidden until the button is clicked.
   function showReply() {
     document.getElementById('quoteDisplay').style.display = "block";
   }
+  

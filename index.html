@@ -12,14 +12,18 @@
     </div>
     <div class="chat">
         <div class="imessage">
+          <!-- the log lady's initial question -->
           <p class="from-them">My log has something to say. But first- what did you want to ask me?</p>
+          <!-- the user's question that they type in input box -->
           <p class="from-me" id="result"></p>
+          <!-- the random log lady quote which is her "response" -->
           <p class="from-them" id="quoteDisplay"></p> 
         </div>
     </div>
     <div>
         <form id="Form">
             <input type="text" placeholder="your question here" name="question" id="question">
+            <!-- at the click of the button the question and log lady's response are printed as text messages above the input box and the input area is cleared of text -->
             <input type="button" class="arrow" value="&#11014;" onClick="pr();clearInput();quotes();showResult();showReply()">
         </form>
     </div>
