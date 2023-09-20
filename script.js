@@ -44,4 +44,11 @@ function clearInput() {
   function showReply() {
     document.getElementById('quoteDisplay').style.display = "block";
   }
-  
+
+//calls the functions when button is clicked
+document.getElementById("grBtn").addEventListener("click", pr); 
+document.getElementById("grBtn").addEventListener("click", clearInput); 
+document.getElementById("grBtn").addEventListener("click", quotes); 
+document.getElementById("grBtn").addEventListener("click", showResult); 
+document.getElementById("grBtn").addEventListener("click", showReply); 
+
